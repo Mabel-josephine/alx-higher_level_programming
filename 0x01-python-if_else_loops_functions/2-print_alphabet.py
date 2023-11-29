@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
-ascii_value_a = ord('a')
-for i in range(20, 40):
-    print("{}".format(chr(ascii_value_a + i)), end='')
+for i in range(20,40):
+for char in range(ord('a'), ord ('z') + 1):
+    print(chr(char), end='')
+
+    print()

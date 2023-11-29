@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 
-for i in range(2):
-    print(f"{i}")
+for char in map(chr, range(ord('a'), ord('z') + 1)):
+    print(f"{char}", end="")
+    if char != 'z':
+        print("",end="")

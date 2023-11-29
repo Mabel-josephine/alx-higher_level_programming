@@ -1,0 +1,3 @@
+:02d}".format(i) end=",")
+    ^
+IndentationError: expected an indented bloki

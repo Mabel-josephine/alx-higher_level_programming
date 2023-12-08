@@ -1,9 +1,7 @@
-#!/usr/bin/python3
-
-def max_integer(my_list=[]):
-    
+def max_integer(my_list=None):
     if len(my_list) == 0:
         return None
+    
     large = my_list[0]
 
     for number in range(1, len(my_list)):
@@ -11,4 +9,3 @@ def max_integer(my_list=[]):
             large = my_list[number]
 
     return large
-

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 def no_c(my_string):
     new_s = ""
@@ -6,4 +6,3 @@ def no_c(my_string):
         if char.lower() != 'c':
             new_s += char
     return new_s
-
